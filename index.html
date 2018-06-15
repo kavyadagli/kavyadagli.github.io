@@ -1,29 +1,86 @@
-<!DOCTYPE html>
+<!DOCTYPE html5>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="main.css">
-		<title>Hank Quinlan, Horrible Cop</title>
+		<link type="text/css" rel="stylesheet" href="main.css" id="default">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Kavya Dagli</title>
 	</head>
 	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Kavya Dagli!</h1>
-				<p>I'm studying Computer Science at the University of Maryland<em>Aspiring Software Engineer</em> Hi! <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:ksdagli@gmail.com">email</a></li>
-        		<li><a href="https://github.com/kavyadagli">github.com/kavyadagli</a></li>
-			</ul>
-		</footer>
+	<div id="particles-js"></div>-->
+		<!---Side Navigation----->
+		<div class="sidenav">
+			<div class="container">
+				<a href="index.html" class= "fa fa-home"></a>
+				<div class= "overlay">
+					<div class= "menu-text"><a href="index.html" class="menu-link">HOME<a></div>
+				</div>
+			</div>
+
+			<div class="container">
+				<a href="myWork.html" class= "fa fa-eye"></a>
+				<div class= "overlay">
+					<div class= "menu-text"><a href="myWork.html" class="menu-link">MY WORK<a></div>
+				</div>
+			</div>
+
+			<div class="container">
+				<a href="myWork.html" class= "fa fa-pencil"></a>
+				<div class= "overlay">
+					<div class= "menu-text"><a href="myWork.html" class="menu-link">DISCOURSE<a></div>
+				</div>
+			</div>
+
+
+			<svg height="210" width="500">
+  			<line x1="0" y1="200" x2="77" y2="0" style="stroke:rgb(77,77,78);stroke-width:.5" />
+				<line x1="0" y1="0" x2="185" y2="500" style="stroke:rgb(77,77,78);stroke-width:.5" />
+			</svg>
+
+			<div class= "socials">
+				<a href="mailto:ksdagli@gmail.com" class= "fa fa-envelope"></a>
+				<a href="https://www.linkedin.com/in/kavyadagli/" class= "fa fa-linkedin"></a>
+				<a href="https://twitter.com/kavyadagli" class= "fa fa-twitter"></a>
+				<a href="https://github.com/kavyadagli" class= "fa fa-github"></a>
+			</div>
+
+		<!---Name----->
+	  <div class="id">
+	     <h1>Kavya Dagli</h1>
+			 <h2> Observe  <strong>∆</strong>  Ideate  <strong>∆</strong>  Develop </h2>
+	  </div>
+
+		<!---SlideOut About Me Tab--->
+		<nav class="nav-side">
+	    Hi! I'm Kavya. I'm currently pursuing a degree in <a href= "http://www.cs.umd.edu" class= "link">Computer Science</a> with a concentration in Mathematics at
+	    <a href= "http://www.umd.edu" class= "link">the University of Maryland</a>. I enjoy attending <a href= "http://www.bit.camp" class= "link">hackathons</a> on campus, working to better the world
+	    through tech, and
+			<a href="https://www.google.com/search?hl=en&authuser=0&biw=1280&bih=616&tbm=isch&sa=1&ei=42QZW6ejEof_zgKvkYP4AQ&q=pizza+that+will+make+you+hungry&oq=pizza+that+will+make+yo&gs_l=img.3.0.0.2983.6196.0.7136.23.12.0.11.11.0.142.1147.8j4.12.0....0...1c.1.64.img..0.23.1259...35i39k1j0i67k1j0i30k1j0i8i30k1j0i24k1.0.gmTaQM7cpfI" class="link">eating pizza</a>.
+			<img class= "pro-pic" src="proPic_bw.jpg"></img>
+				<div class="nav-toggle">
+					<p class= "toggle-text">LEARN MORE</p>
+				</div>
+	  </nav>
+
+		</div>
+
+		<!--Theme Changer--->
+		<p id="instr">Click to change theme</p>
+		<button id="trigger"><img width="50" height="50" src="lightBulb.png"></img></button>
+
+	  <script src="script.js"></script>
+
+
+
+		<!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+		<!-- <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+		<script>
+		particlesJS("particles-js", {"particles":{"number":{"value":150,"density":{"enable":true,"value_area":1420.4657549380909}},"color":{"value":"#efff00"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":4},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#efff00","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+		</script> -->
+
+
 	</body>
 </html>
