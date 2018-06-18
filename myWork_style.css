@@ -119,28 +119,90 @@ svg {
   font-size: 120%;
 }
 
-.id {
-  position: fixed;
-  margin-bottom: 0;
-  margin-left: 7%;
-  margin-top: -30%;
-  text-align: center;
-  width: 40%;
-}
-
-#temp {
-  position: absolute;
-  top: 25%;
-  left: 650%;
-}
 
 h1 {
-  font-family: 'Helvetica', 'Arial', 'Sans-serif';
-  font-size: 25px;
-  letter-spacing: 2px;
-  color: lightGray;
-  border: solid;
-  border-color: white;
-  padding: 0;
-  margin: 0;
+	position: absolute;
+	color: #11E5E8;
+	font-size: 75px;
+	font-family:'Ostrich Sans';
+	top: 0px;
+	margin-left: 45%;
+}
+
+/* #java-dev {
+	position: absolute;
+	margin-left: 150px;
+	text-align: left;
+	top: 150px;
+	width: 1000px;
+} */
+
+table {
+	margin-top: 150px;
+	margin-left: 125px;
+}
+
+h2 {
+	position: absolute;
+	margin: 0;
+	color: #11E5E8;
+	font-size: 45px;
+	font-family:'Ostrich Sans';
+	padding-bottom: 20px;
+}
+
+h3 {
+	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+	font-weight: BOLD;
+	letter-spacing: 3px;
+	font-size: 17px;
+	color: #ffff;
+	margin-top: 60px;
+}
+
+p {
+	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+	font-weight: lighter;
+	letter-spacing: 2px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #ffff;
+	margin-top: 20px;
+}
+
+#black-jack {
+	height: 300px;
+	width: 420px;
+	padding-top: 50px;
+	padding-left: 20px;
+}
+
+.descr {
+	width: 650px;
+}
+
+#clear-cell {
+	height: 300px;
+	width: 200px;
+	padding-top: 50px;
+	padding-left: 150px;
+}
+
+#blue-trail {
+	height: 300px;
+	width: 200px;
+}
+
+#food-buddy {
+	height: 300px;
+	width: 200px;
+}
+
+.descr2 {
+	width: 650px;
+}
+
+.web-media {
+	padding-left: 50px;
+	padding-top: 20px;
 }
