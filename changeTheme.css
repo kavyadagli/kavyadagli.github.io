@@ -163,6 +163,7 @@ h2 {
   font-family: 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 3px;
   font-size: 14px;
+  cursor: pointer;
 }
 
 .toggle-text {
@@ -198,7 +199,7 @@ h2 {
 	margin-top: 20px;
 	margin-left: 30%;
 	height: 50%;
-	width: 40%;
+	width: 50%;
 }
 
 #particles-js{
@@ -257,6 +258,7 @@ h2 {
 	margin: 0;
 	border: 0;
 	right: 100;
+	top: 100;
 	padding-top: 500px;
 	padding-left: -50px;
 	font-size: 18px;
