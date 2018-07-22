@@ -178,3 +178,11 @@ p {
 	padding-left: 50px;
 	padding-top: 20px;
 }
+
+a.proj-link {
+	text-decoration: : none;
+}
+
+.proj-link:hover {
+	text-decoration: underline white;
+}
