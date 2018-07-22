@@ -1,7 +1,7 @@
 /* @font-face kit by Fonts2u (http://www.fonts2u.com) */
 @font-face {
 	font-family:"Ostrich Sans Bold";
-	src:url("ostrich-bold.eot?") format("eot"),url("ostrich-bold.woff") format("woff"),url("ostrich-bold.ttf") format("truetype"),url("ostrich-bold.svg#OstrichSans-Bold") format("svg");
+	src:url("ostrich-bold.eot?") format("eot"),url("../resources/ostrich-bold.woff") format("woff"),url("../resources/ostrich-bold.ttf") format("truetype"),url("../resources/ostrich-bold.svg#OstrichSans-Bold") format("svg");
 	font-weight:normal;font-style:normal;
 }
 
