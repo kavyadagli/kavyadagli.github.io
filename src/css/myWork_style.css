@@ -180,7 +180,7 @@ p {
 }
 
 a.proj-link {
-	text-decoration: : none!important;
+	text-decoration: none;
 }
 
 .proj-link:hover {
