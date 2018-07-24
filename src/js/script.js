@@ -17,6 +17,6 @@ document.getElementById('trigger').onclick = function () {
       document.getElementById('default').href = '../src/css/changeTheme.css';
 
     } else {
-       document.getElementById('default').href = '../src/css/main.css';
+       document.getElementById('default').href = '../src/css/home.css';
     }
 };
