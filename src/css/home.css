@@ -6,6 +6,35 @@
 	font-style:normal;
 }
 
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face {
+	font-family:"Ostrich Sans Bold";
+	src:url("ostrich-bold.eot?") format("eot"),url("..resources/ostrich-bold.woff") format("woff"),url("../resources/ostrich-bold.ttf") format("truetype"),url("../resources/ostrich-bold.svg#OstrichSans-Bold") format("svg");
+	font-weight:normal;font-style:normal;
+}
+
+
+body {
+  margin: 0;
+  background-color: #252627;
+  display: block;
+}
+
+.id {
+  position: absolute;
+  text-align: center;
+	width: 425px;
+	margin-top: 15%;
+	margin-left: 35%;
+}
+
+h1 {
+    color: #11E5E8;
+    font-size: 90px;
+    font-family:"Ostrich Sans Bold";
+    margin-bottom: 0;
+}
+
 
 .nav-side{
   position: fixed;
