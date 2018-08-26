@@ -21,6 +21,7 @@ body {
 }
 
 .id {
+  position: absolute;
   text-align: center;
 	width: 425px;
 	margin-top: 15%;
