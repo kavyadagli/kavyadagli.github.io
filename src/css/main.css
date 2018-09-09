@@ -137,17 +137,20 @@ h1 {
   background-position: 50% 50%;
 }
 
+.theme-changer {
+	width: 200px;
+	position: fixed;
+	right: 0;
+	bottom 12px;
+}
 
 #trigger {
-	z-index: -1;
+  z-index: -1;
   background: transparent;
   border: none;
-  position: fixed;
   z-index: 1;
-  right: 12;
-  top: 85%;
-	outline: none;
-	background: none;
+  outline: none;
+  background: none;
 	-ms-transform: rotate(-20deg); /* IE 9
 	-webkit-transform: rotate(-20deg); /* Safari */
 	transform: rotate(-20deg); */
@@ -162,14 +165,6 @@ h1 {
 
 #instr {
 	z-index: -1;
-	position: fixed;
-	padding: 0;
-	margin: 0;
-	border: 0;
-	right: 100;
-	top: 100;
-	padding-top: 500px;
-	padding-left: -50px;
 	font-size: 18px;
 	color: gray;
 	font-weight: lighter;
