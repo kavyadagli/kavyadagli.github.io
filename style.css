@@ -213,7 +213,7 @@ a.fa {
 
 /* POP UP ANIMATION + FORMATTING */
 .modal {
-	width: 500px;
+	width: 40%;
 }
 
 #modal-container {
@@ -437,6 +437,10 @@ a.fa {
 
 	 body {
 		 margin:0;
+	 }
+
+	 .modal {
+	 	width: 50%;
 	 }
 
 }
